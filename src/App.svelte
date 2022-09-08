@@ -1148,7 +1148,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-
+<!-- 
   <div>
     <a href="https://vitejs.dev" target="_blank"> 
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
@@ -1170,6 +1170,8 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
+-->
+
 </main>
 
 <style>
