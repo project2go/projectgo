@@ -41,7 +41,7 @@ h6 {
 # Main
 --------------------------------------------------------------*/
 #main {
-  margin-top: 60px;
+  margin-top: 20px; 
   padding: 20px 30px;
   transition: all 0.3s;
 }
@@ -51,7 +51,7 @@ h6 {
     padding: 20px;
   }
 }
-
+ 
 /*--------------------------------------------------------------
 # Page Title
 --------------------------------------------------------------*/
@@ -69,6 +69,20 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+.float-btn {
+  position: fixed;
+  visibility: visible;
+  opacity: 0;
+  right: 15px;
+  bottom: 45px;
+  z-index: 99999;
+  background: #4154f1;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -376,7 +390,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .logo {
-    width: 280px;
+    width: 60px;
   }
 }
 
@@ -392,13 +406,17 @@ h6 {
   font-family: "Nunito", sans-serif;
 }
 
+@media only screen and (max-width: 1024px){
+  .mobile-hide{ display: none !important;}
+}
+
 .header {
   transition: all 0.5s;
   z-index: 997;
   height: 60px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
   background-color: #fff;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   /* Toggle Sidebar Button */
   /* Search Bar */
 }
